@@ -45,33 +45,33 @@ namespace BigMammaUML3
 
         public void PrintPizzasMenu()
         {
-            foreach (var aMenuItem in menuItems)
+            foreach (IMenuItem aMenuItem in menuItems.Values)
             {
-                if (aMenuItem.Value.Type == MenuType.Pizza)
+                if (aMenuItem.Type == MenuType.Pizza)
                 {
-                    Console.WriteLine(aMenuItem);
+                    Console.WriteLine(aMenuItem.PrintInfo());
                 }
             }
         }
 
         public void PrintBeveragesMenu()
         {
-            foreach (var aMenuItem in menuItems)
+            foreach (IMenuItem aMenuItem in menuItems.Values)
             {
-                if (aMenuItem.Value.Type == MenuType.SoftDrink)
+                if (aMenuItem.Type == MenuType.SoftDrink)
                 {
-                    Console.WriteLine(aMenuItem);
+                    Console.WriteLine(aMenuItem.PrintInfo());
                 }
             }
         }
 
         public void PrintToppingsMenu()
         {
-            foreach (var aMenuItem in menuItems)
+            foreach (IMenuItem aMenuItem in menuItems.Values)
             {
-                if (aMenuItem.Value.Type == MenuType.Topping)
+                if (aMenuItem.Type == MenuType.Topping)
                 {
-                    Console.WriteLine(aMenuItem);
+                    Console.WriteLine(aMenuItem.PrintInfo());
                 }
             }
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BigMammaUML3
 {
-    public class MenuItem : IMenuItem
+    public abstract class MenuItem : IMenuItem
     {
         private int _number;
         private string _name;

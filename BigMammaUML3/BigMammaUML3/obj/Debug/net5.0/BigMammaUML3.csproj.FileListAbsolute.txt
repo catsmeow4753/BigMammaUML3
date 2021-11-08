@@ -1,0 +1,16 @@
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\BigMammaUML3.exe
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\BigMammaUML3.deps.json
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\BigMammaUML3.runtimeconfig.json
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\BigMammaUML3.runtimeconfig.dev.json
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\BigMammaUML3.dll
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\ref\BigMammaUML3.dll
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\BigMammaUML3.pdb
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.csproj.AssemblyReference.cache
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.AssemblyInfoInputs.cache
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.AssemblyInfo.cs
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.csproj.CoreCompileInputs.cache
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.dll
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\ref\BigMammaUML3.dll
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.pdb
+C:\Users\Hansen\Desktop\GitHub\BigMammaUML3\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.genruntimeconfig.cache

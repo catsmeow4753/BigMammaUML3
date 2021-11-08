@@ -85,11 +85,11 @@ namespace BigMammaUML3
         public List<IMenuItem> FindAllVegan(MenuType type)
         {
             List<IMenuItem> aMenuItemList = new List<IMenuItem>();
-            foreach (var aMenuItem in menuItems)
+            foreach (IMenuItem aMenuItem in menuItems.Values)
             {
-                if (aMenuItem.Value.Type == type && aMenuItem.Value.IsVegan)
+                if (aMenuItem.Type == type && aMenuItem.IsVegan)
                 {
-                    aMenuItemList.Add(aMenuItem.Value);
+                    aMenuItemList.Add(aMenuItem);
                 }
             }
 
@@ -99,11 +99,11 @@ namespace BigMammaUML3
         public List<IMenuItem> FindAllOrganic(MenuType type)
         {
             List<IMenuItem> aMenuItemList = new List<IMenuItem>();
-            foreach (var aMenuItem in menuItems)
+            foreach (IMenuItem aMenuItem in menuItems.Values)
             {
-                if (aMenuItem.Value.Type == type && aMenuItem.Value.IsOrganic)
+                if (aMenuItem.Type == type && aMenuItem.IsOrganic)
                 {
-                    aMenuItemList.Add(aMenuItem.Value);
+                    aMenuItemList.Add(aMenuItem);
                 }
             }
 

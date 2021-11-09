@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BigMammaUML3
 {
-    class Beverage : MenuItem
+    public class Beverage : MenuItem
     {
         public bool Alcohol { get; set; }
 

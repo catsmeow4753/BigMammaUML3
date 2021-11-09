@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BigMammaUML3
 {
-    class Pizza : MenuItem
+    public class Pizza : MenuItem
     {
         public bool DeepPan { get; set; }
 

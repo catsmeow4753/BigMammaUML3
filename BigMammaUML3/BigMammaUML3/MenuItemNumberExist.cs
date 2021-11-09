@@ -8,9 +8,9 @@ namespace BigMammaUML3
 {
     class MenuItemNumberExist : Exception
     {
-        public MenuItemNumberExist()
+        public MenuItemNumberExist(string message) : base(message)
         {
-            Console.WriteLine("Menu item number exist");
+            
         }
     }
 }

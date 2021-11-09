@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace BigMammaUML3
 {
-    class MenuCatalog : IMenuCatalog
+    public class MenuCatalog : IMenuCatalog
     {
-        private int _count;
-
-        public int Count => _count;
+        public int Count => menuItems.Count;
 
         public Dictionary<int, IMenuItem> menuItems = new Dictionary<int, IMenuItem>();
 
@@ -22,7 +20,7 @@ namespace BigMammaUML3
             }
             else
             {
-                throw new MenuItemNumberExist();
+                throw new MenuItemNumberExist("Menu item number exists");
             }
         }
 
@@ -117,7 +115,7 @@ namespace BigMammaUML3
             {
                 if (menuItems[i].Price > mostExpensiveMenuItem.Price)
                 {
-                    menuItems[i] = mostExpensiveMenuItem;
+                    mostExpensiveMenuItem = menuItems[i];
                 }
             }
 
